@@ -4,9 +4,15 @@
 
 <hr>
 1. Clona este repositorio en tu máquina local: <br>
+
+
   git clone https://github.com/rollingcodeschool/proyectosC74i
 
-2 . ¡ No te olvides de Instalar las depencias en tu terminal ! <br>
+
+
+2 . ¡ No te olvides de Instalar las depencias en tu terminal ! 
+<br>
+
 . npm install o npm i
 
 
