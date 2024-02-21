@@ -1,6 +1,6 @@
  Este es un Proyecto Grupal De Nuestra Comision 74i De
      <img src="./src/assets/rollingcode_school_cover.jpeg" alt="Logo Del School" />
-¡Bienvenido al repositorio de proyectos de nuestra comisión! Aquí encontrarás una recopilación de los proyectos en los que estuvimos trabajando, centrándonos en JavaScript y React. Este es un proyecto grupal en el que cada miembro contribuirá con su parte del código, según las tareas asignadas por nuestra mentora "Emilse Arias " "Damaris Palacios".
+¡Bienvenido al repositorio de proyectos de nuestra comisión! Aquí encontrarás una recopilación de los proyectos en los que estuvimos trabajando, centrándonos en JavaScript y React. Este es un proyecto grupal en el que cada miembro contribuirá con su parte del código, según las tareas asignadas por nuestra mentora "Emilse Arias  " y "Damaris Palacios".
 
 <hr>
 1. Clona este repositorio en tu máquina local:
@@ -21,4 +21,4 @@
   - Responsable de la maquetación de la página de Inicio. 
 
 - **Vir Campillo**:
-  - Encargada de la revisión y los pull requests.
+  - Encargada de la revisión de mi maquetado  y del  pull requests.
