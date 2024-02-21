@@ -1,6 +1,6 @@
 
 import './App.css'
-import HomePage from './components/HomePage'
+import Home from './components/Home'
 import Footer from './components/Footer'
 
 
@@ -9,7 +9,7 @@ const App=()=> {
   return (
     <>
     <main>
-    <HomePage/>
+      <Home></Home>
     </main>
     
     <Footer></Footer>
