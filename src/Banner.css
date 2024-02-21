@@ -1,0 +1,78 @@
+.img-banner{
+    background-image: url('https://www.nextibs.com/wp-content/uploads/2021/12/seguridad-informatica-1024x439.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+}
+
+
+.img-banner-text h2{
+position: absolute;
+height: max-content;
+bottom: 0;
+right:1%;
+color:rgba(233, 228, 228, 0.795);
+text-shadow: 10px 5px 5px rgb(71, 71, 102);
+font-size: 80px;
+}
+
+.img-banner-title{
+    position: absolute;
+    height: max-content;
+    top: 30%;
+    left: 2%;
+    width: 30%;
+    text-align: center;
+    color:white;
+    text-shadow: 10px 5px 5px rgb(170, 170, 194);
+}
+
+
+
+
+@media screen and (max-width:1440px) {
+    .img-banner{
+        height: 500px;
+    }    
+    .img-banner-title{
+        top: 20%;
+        width: 40%;
+    }
+    .img-banner-text h2{
+        font-size: 40px;
+
+    }
+    }
+@media screen and (max-width:1024px) {
+    .img-banner{
+        height: 500px;
+    }    
+    }
+@media screen and (max-width:768px) {
+    .img-banner{
+        height: 400px;
+    }    
+    .img-banner-title{
+        top: 10%;
+        width: 50%;
+    }
+    .img-banner-text h2{
+        font-size: 30px;
+    }
+    }
+
+@media screen and (max-width:480px) {
+.img-banner{
+    height: 200px;
+}    
+.img-banner-title{
+    font-size: 15px;
+    top: 10%;
+
+}
+.img-banner-text h2{
+    font-size: 20px;
+    
+}
+}

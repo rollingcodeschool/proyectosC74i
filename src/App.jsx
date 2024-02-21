@@ -11,6 +11,7 @@ const App=()=> {
     <main>
     <HomePage/>
     </main>
+    
     <Footer></Footer>
     </>
   )
