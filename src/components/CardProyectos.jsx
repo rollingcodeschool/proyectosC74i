@@ -1,5 +1,7 @@
+import'../App.css';
 import React from "react";
-import { Col, Card, Row } from "react-bootstrap";
+import { Col, Card, Badge, Stack } from "react-bootstrap";
+import { DiReact,DiJavascript1 } from "react-icons/di";
 
 function CardProyectos() {
   return (
@@ -14,7 +16,11 @@ function CardProyectos() {
           <Card.Title className="text-center fw-bold">
             Nombre Del Proyecto
           </Card.Title>
-          <Card.Text>Descripción breve del proyecto</Card.Text>
+          <Card.Text className='text-center'>Descripción breve del proyecto</Card.Text>
+        <Stack direction="horizontal" className="badge-font d-flex justify-content-center" gap={5} >
+        <Badge><DiReact /></Badge>
+        <Badge><DiJavascript1 /></Badge>
+        </Stack>
         </Card.Body>
       </Card>
     </Col>
