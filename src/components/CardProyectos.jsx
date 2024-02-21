@@ -19,8 +19,8 @@ function CardProyectos() {
           <Card.Text className='text-center'>Descripción breve del proyecto</Card.Text>
         <Stack direction="horizontal" className="badge-font d-flex justify-content-center" gap={5} >
         <Badge><DiReact /></Badge>
-        <Badge><DiJavascript1 /></Badge>
-        </Stack>
+        <Badge bg="warning"><DiJavascript1 /></Badge>
+        </Stack> 
         </Card.Body>
       </Card>
     </Col>
