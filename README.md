@@ -21,4 +21,4 @@
   - Responsable de la maquetación de la página de Inicio. 
 
 - **Vir Campillo**:
-  - Encargada de la revisión de mi maquetado  y del  pull requests.
+  - Encargada de la revisión del maquetado del compañero Maximiliano Ariel Gomez y del  pull requests.
