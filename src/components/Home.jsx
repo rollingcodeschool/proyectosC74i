@@ -16,7 +16,7 @@ const HomePage = () => {
         </div>
       </div>
 
-      <Row className="  container-fluid justify-content-around">
+      <Row className="  container-fluid justify-content-around mx-auto">
         <CardProyectos></CardProyectos>
         <CardProyectos></CardProyectos>
         <CardProyectos></CardProyectos>
