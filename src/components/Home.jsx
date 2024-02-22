@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import CardProyectos from "./CardProyectos";
 import { Row,} from "react-bootstrap";
+import imgContador from "../assets/imgContador.png"
 import '../Banner.css';
 const HomePage = () => {
   return (
@@ -17,7 +18,7 @@ const HomePage = () => {
       </div>
 
       <Row className="  container-fluid justify-content-around mx-auto">
-        <CardProyectos></CardProyectos>
+        <CardProyectos urlProyecto="https://github.com/rollingcodeschool/primerAppReact-c74i" nombreProyecto="Contador" descProyecto="Esta web posee un botón que hace incrementar un número hasta un valor deseado" imgProyecto={imgContador}></CardProyectos>
         <CardProyectos></CardProyectos>
         <CardProyectos></CardProyectos>
       </Row>
