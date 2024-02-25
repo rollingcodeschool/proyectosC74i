@@ -28,3 +28,9 @@
 
 - **Vir Campillo**:
   - Encargada de la revisión del maquetado del compañero Maximiliano Ariel Gomez y del  pull requests.
+
+- **Mauro Nahuel Armas**:
+  - Encargado de agregar los datos del proyecto del contador en la primera card.
+
+- **Nicolás Iosa Molina**:
+  - Encargado de revisar y aceptar el pull request de Mauro.
