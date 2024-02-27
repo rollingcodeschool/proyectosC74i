@@ -5,6 +5,7 @@ import { DiReact, DiJavascript1, DiGithubBadge } from "react-icons/di";
 
 function CardProyectos({
   urlProyecto,
+  urlGitHub,
   nombreProyecto,
   descProyecto,
   imgProyecto,
@@ -30,20 +31,20 @@ function CardProyectos({
               <DiJavascript1 />
             </Badge>
           </Stack>
-          <Stack direction="horizontal"
-            className="my-4 badge-font d-flex justify-content-center">
-              <a href="">
-            <Badge className="p-3">
-              Ver proyecto
-            </Badge>
-          </a>
+          <Stack
+            direction="horizontal"
+            className="my-4 badge-font d-flex justify-content-center"
+          >
+            <a href={urlProyecto} className="text-decoration-none" target="_blank">
+              <Badge className="p-3">Ver proyecto</Badge>
+            </a>
           </Stack>
           <Stack
             direction="horizontal"
             className="my-4 badge-font d-flex justify-content-center"
           >
             <a
-              href={urlProyecto}
+              href={urlGitHub}
               className="text-decoration-none"
               target="_blank"
             >
